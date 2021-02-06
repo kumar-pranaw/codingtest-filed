@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePaymentWebAPI", "OnlinePaymentWebAPI\OnlinePaymentWebAPI.csproj", "{0BE81ACA-F703-4FBB-888A-6BB2E33329C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePayment.Domain", "OnlinePaymentDomain\OnlinePayment.Domain.csproj", "{15A03CE7-26A0-4917-9F0D-CC5B74C810D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePayment.Data", "OnlinePayment.Data\OnlinePayment.Data.csproj", "{97A98429-1BD7-490F-85BF-64BF53BD4690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePayment.Service", "OnlinePayment.Service\OnlinePayment.Service.csproj", "{662630EB-A49A-4A9C-A18C-CC80E4BD112E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{43B6CE04-25DE-446B-9507-1B923B714B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePayment.SQL", "OnlinePayment.SQL\OnlinePayment.SQL.csproj", "{1BB1ADA7-83BD-47B2-9F03-05F0E4809060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE81ACA-F703-4FBB-888A-6BB2E33329C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE81ACA-F703-4FBB-888A-6BB2E33329C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE81ACA-F703-4FBB-888A-6BB2E33329C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE81ACA-F703-4FBB-888A-6BB2E33329C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A03CE7-26A0-4917-9F0D-CC5B74C810D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A03CE7-26A0-4917-9F0D-CC5B74C810D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A03CE7-26A0-4917-9F0D-CC5B74C810D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A03CE7-26A0-4917-9F0D-CC5B74C810D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A98429-1BD7-490F-85BF-64BF53BD4690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A98429-1BD7-490F-85BF-64BF53BD4690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A98429-1BD7-490F-85BF-64BF53BD4690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A98429-1BD7-490F-85BF-64BF53BD4690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662630EB-A49A-4A9C-A18C-CC80E4BD112E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662630EB-A49A-4A9C-A18C-CC80E4BD112E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662630EB-A49A-4A9C-A18C-CC80E4BD112E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662630EB-A49A-4A9C-A18C-CC80E4BD112E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB1ADA7-83BD-47B2-9F03-05F0E4809060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB1ADA7-83BD-47B2-9F03-05F0E4809060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB1ADA7-83BD-47B2-9F03-05F0E4809060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB1ADA7-83BD-47B2-9F03-05F0E4809060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BB1ADA7-83BD-47B2-9F03-05F0E4809060} = {43B6CE04-25DE-446B-9507-1B923B714B5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02F275F5-DFF0-4E49-930A-A90CE6ACFA60}
+	EndGlobalSection
+EndGlobal
